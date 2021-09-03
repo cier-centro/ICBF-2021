@@ -1,0 +1,39 @@
+/*----------------------------------
+---------------Controls-------------
+------------------------------------*/
+#controls {
+  &.hidden {
+    display: none;
+  }
+  /* Next & previous buttons */
+
+  .next,
+  .prev {
+    display: block;
+    cursor: pointer;
+    padding: 16px;
+    font-weight: bold;
+    font-size: 25px;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  /* On hover, add a black background color with a little bit see-through */
+
+  .next:hover,
+  .prev:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-nav {
+    justify-content: center;
+    flex-direction: row;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
