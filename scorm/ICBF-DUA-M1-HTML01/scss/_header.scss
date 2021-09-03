@@ -1,0 +1,25 @@
+/*----------------------------------
+----------------Header--------------
+------------------------------------*/
+
+.title-row {
+  background-color: $purple-site;
+  position: relative;
+
+  p {
+    color: $white-site;
+    font-family: 'Gotham-Black';
+    margin: 0 0 0 30px;
+  }
+
+  &::after {
+    position: absolute;
+    content: "";
+    background: url("#{$images-path}img_spritesheet.png");
+    width: 58px;
+    height: 20px;
+    top: 100%;
+    left: 25px;
+    background-position: -15px -191px;
+  }
+}
