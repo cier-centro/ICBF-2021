@@ -2,24 +2,24 @@
 ----------------Header--------------
 ------------------------------------*/
 
+
 .title-row {
-  background-color: $purple-site;
+  background-color: $green-light;
   position: relative;
 
   p {
     color: $white-site;
-    font-family: 'Gotham-Black';
-    margin: 0 0 0 30px;
+    font-family: "VAG-Rounded-Bold";
   }
 
   &::after {
     position: absolute;
     content: "";
-    background: url("#{$images-path}img_spritesheet.png");
+    background: url("../images/img_spritesheet.png");
     width: 58px;
     height: 20px;
     top: 100%;
-    left: 25px;
+    right: 25px;
     background-position: -15px -191px;
   }
 }
