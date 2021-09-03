@@ -10,16 +10,12 @@
 }
 @media only screen and (min-width: 992px) {
   .info-container {
-    .content-row{      
-      margin: 1% 0;
-    }
     .buttons-container {
       display: flex;
       align-items: center;
       justify-content: space-around;
     }
   }
-  
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .main-container {
@@ -45,7 +41,8 @@
     }
   }
 
-  .info-container {
+  .info-container,
+  .master-modal {
     font-size: 25px;
 
     .btn-map {
@@ -57,7 +54,7 @@
   .main-container {
     .text-container {
       h1 {
-        font-size: 3em;
+        font-size: 2.6em;
       }
     }
 
@@ -79,31 +76,51 @@
 }
 @media only screen and (min-width: 768px) {
   .info-container,
-  .main-container {
+  .main-container,
+  .master-modal {
     font-size: 30px;
   }
-  .p-container-select{
-    text-align: left;
-  }
-  
-  .exit-image{
+
+  .exit-image {
     width: 20%;
   }
 
-  .welcome-image{
-    img{
-      width: 100% !important;
-    }
-    
+  .welcome-image img {
+    width: 100% !important;
   }
-
-  
 }
 @media only screen and (max-width: 767px) and (orientation:portrait) {
-  
+  .activity {
+    [id^="drag"] {
+      max-width: 10vh;
+    }
+
+    [id^="drop"] {
+      min-width: 43vw;
+      min-height: 15vh;
+    }
+
+    #popupContent {
+      margin: 30% 0 0 10%;
+    }
+  }
 }
 @media only screen and (max-width: 767px) and (orientation:landscape) {
-  
+  .activity {
+    [id^="drag"] {
+      max-width: 10vw;
+    }
+
+    [id^="drop"] {
+      min-width: 45vw;
+      min-height: 30vh;
+      display: inline-table;
+    }
+
+    #popupContent {
+      margin: 30% 0 0 10%;
+    }
+  }
 }
 @media only screen and (max-width: 767px) {
   #controls .navbar-nav {
@@ -123,19 +140,54 @@
       margin-left: -23px;
     }
   }
+
+  .answers-buttons {
+    .btn-light {
+      width: 100%;
+      margin-bottom: 3em;
+      position: relative;
+
+      &.square-left {
+        width: calc(100% - 27px);
+
+        .answer-sign {
+          position: relative;
+        }
+
+        .answer-text {
+          padding: 15px;
+        }
+      }
+    }
+
+    .answer-img {
+      min-width: 80px;
+      position: absolute;
+      min-height: 100%;
+      top: 0;
+    }
+
+    .answer-text {
+      padding: 15px 15px 30px 95px;
+    }
+
+    .answer-sign {
+      margin-right: 0;
+      position: absolute;
+      top: calc(100% - 27px);
+      right: 0;
+    }
+  }
 }
 @media only screen and (min-width: 576px) {
   .play-container {
     display: flex;
     align-items: center;
   }
-  .welcome-image{
-    img{
-      width: 40%;
-    }
-    
+
+  .welcome-image img {
+    width: 40%;
   }
-  
 }
 @media only screen and (max-width: 575px) {
   .last-container,
@@ -147,10 +199,21 @@
   }
 
   .welcome-image {
-    //max-width: 280px;    
+    //max-width: 280px;
   }
 
-  
+  .sliderB .dragB,
+  .sliderC .dragC,
+  .sliderD .dragD,
+  .sliderE .dragE {
+    &::before {
+      font-size: 8px;
+      height: 10px;
+      width: 10px;
+      padding: 1px 3px;
+      top: 0;
+    }
+  }
 }
 @media only screen and (max-width: 300px) {
   #controls {

@@ -20,16 +20,16 @@
       
       [id^="drop"] {        
         min-height: 200px;
-        width: 100%;
-        height: fit-content;
-
-        border-radius: 15px;
-        border: 3px solid rgba(255, 255, 255, 0.4);
-        
-        color: $white-site;        
-        text-align: center;        
-        user-select: none;
-        margin: 0 auto;
+      width: 100%;
+      height: fit-content;
+      background-color: $green-ultralight;
+      border-radius: 15px;
+      border: 3px solid rgba(255, 255, 255, 0.4);
+      color: $white-site;
+      text-align: center;
+      user-select: none;
+      margin: 0 auto;
+      display: flex;
       }    
     }
 
@@ -55,16 +55,13 @@
 
   .p-container-drag{
   
-    background-color: $purple-site-lighter;
-    border-radius: 15px;    
-    padding: 1rem 1rem .3rem 1rem;
-  
-    p{
-      color:$white-site;
-      font-size: 0.6em;
-      font-family: 'Montserrat-Regular';
-      
-    }
+    background-color: $green-ultralight;
+    border-radius: 15px;
+    padding: 1rem 1rem 0.3rem 1rem;
+    font-family: "Asap-Regular";
+    font-size: 1.2rem;
+    color: $green-dark;
+    text-align: center;
   
   }
   

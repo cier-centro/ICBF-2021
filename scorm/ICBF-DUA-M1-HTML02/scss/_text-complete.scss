@@ -6,17 +6,22 @@ $red-text-complete-color: #E1325D !default;
 $green-text-complete-color: #38C83A !default;
 
 #incompleteText {
+  font-family: "Asap-Regular";
+  font-size: 1.2rem;
+  color: $green-dark;
+
   span {
     display: inline-block;
     width: auto;
-    background: $yellow-site;
+    background: #ffb10d;
     text-align: center;
     padding: 5px 0.5em;
     min-width: 20vw;
     border-radius: 5px;
     color: transparent;
     margin: 0 10px 20px;
-    box-shadow: 0 0.5rem 1rem rgba(0,0,0,.3);
+    box-shadow: 0 0.5rem 1rem rgba($black-site, 0.3);
+    color: #0C5924;
 
     &.selected {
       background-color: rgba($white-site, 1);
@@ -25,7 +30,7 @@ $green-text-complete-color: #38C83A !default;
 
     &.full {
       background: $yellow-site;
-      color: $purple-site-dark;
+      color: $green-dark;
       cursor: pointer;
       font-weight: 700;
     }
@@ -61,8 +66,8 @@ $green-text-complete-color: #38C83A !default;
 #textButtonOptions {
   button {
     font-family: "Montserrat-Regular";
-    background-color: $purple-site-dark;
-    color: $yellow-site;
+    background-color: $green-medium;
+    color: $white-site;
     border: none;
 
     &:hover {
