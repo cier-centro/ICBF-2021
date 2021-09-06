@@ -4,7 +4,7 @@ var slideContent =`
   <div class="col">
     <div class="row header-row align-items-center">
       <div class="main-logo-header-left col-md-1 col-2"><img class="img-fluid"src="./images/logo-header.png"></div>
-      <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5"><p>Diseño Universal del Aprendizaje - DUA &gt; Educación Inclusiva</p></div>
+      <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5"><p>Diseño Universal para el Aprendizaje - DUA &gt; Educación Inclusiva</p></div>
       <div class="col-2 col-md-3"><a href="#" onclick="currentSlide(1) " class="btn btn-link btn-home float-right"></a></div>
     </div>
     <div class="row title-row">
@@ -94,7 +94,7 @@ var slideContent =`
     <div class="modal-content">
       <div class="modal-body">
         <h4 class="modal-title">¡Muy bien!</h4>
-        <p>Los objetivos principales del Diseño Universal del Aprendizaje son eliminar barreras de aprendizaje e incrementar oportunidades  de aprendizaje. </p>        
+        <p>Los objetivos principales del Diseño Universal para el Aprendizaje son eliminar barreras de aprendizaje e incrementar oportunidades  de aprendizaje. </p>        
       </div>
     </div>
   </div>
@@ -104,7 +104,7 @@ var slideContent =`
     <div class="modal-content">
       <div class="modal-body">
         <h4 class="modal-title">¡Vuelva a intentarlo!</h4>
-        <p>Los objetivos principales del Diseño Universal del aprendizaje son eliminar barreras de aprendizaje e incrementar oportunidades  de aprendizaje.</p>        
+        <p>Los objetivos principales del Diseño Universal para el aprendizaje son eliminar barreras de aprendizaje e incrementar oportunidades  de aprendizaje.</p>        
       </div>
     </div>
   </div>
