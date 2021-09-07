@@ -1,0 +1,146 @@
+/*----------------------------------
+------------Drag-activities---------
+------------------------------------*/
+.activity {
+
+  #container-root {
+    height: fit-content;
+  }
+  .drop-container{
+
+  }
+
+  .drag-container {
+
+  }
+
+  .frame-drop{
+
+    .frame-inner-drop{
+
+
+        .drop-content{
+            background-color: $orange-medium;
+            color: $white-site;
+            display: flex;
+            align-items: center;
+            padding: 1em;
+        }
+
+      [id^="drop"] {
+        min-height: 200px;
+      width: 100%;
+      height: fit-content;
+      background-color: $orange-light;
+      //border: 3px solid rgba(255, 255, 255, 0.4);
+      color: $white-site;
+      text-align: center;
+      user-select: none;
+      margin: 0 auto;
+      display: flex;
+      }
+    }
+
+  }
+
+  .drag-content {
+    text-align: left;
+  }
+
+
+
+  .btn_actions{
+    background-size: cover;
+    background-color: $white-site;
+    border: none;
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+    &:hover{
+      filter: hue-rotate(300deg);
+    }
+  }
+
+  .p-container-drag{
+
+    background-color: $green-ultralight;
+    border-radius: 15px;
+    padding: 1rem 1rem 0.3rem 1rem;
+    font-family: "Asap-Regular";
+    font-size: 1.2rem;
+    color: $green-dark;
+    text-align: center;
+
+  }
+
+
+  #actions {
+    z-index: 10;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  #popup {
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    position: absolute;
+    background-color: #333a;
+    top: 0;
+    left: 0;
+  }
+
+  #popupContent {
+    position: absolute;
+    z-index: 110;
+    margin: 15% 0 0 33%;
+  }
+
+  #popHelp {
+    background-color: #00f;
+    color: white;
+  }
+
+  #popRight {
+    background-color: #0f0;
+    color: white;
+  }
+
+  #popWrong {
+    background-color: #f00;
+    color: white;
+  }
+
+  [id^="drag"] {
+    width: 100%;
+    height: fit-content;
+    color: $green-dark;
+    text-align: center;
+    display: inline-table;
+    cursor: grab;
+    user-select: none;
+    margin-bottom: 2%;
+  }
+
+
+  .over {
+    //background-color: $green-master-bg;
+  }
+
+  .droped {
+    background-color: #DFDCE3;
+  }
+
+  .normal {
+    background-color: #F7B733;
+  }
+
+  .disabled {
+    pointer-events: none;
+  }
+
+  .dialog {
+    z-index: 100;
+  }
+}
+
