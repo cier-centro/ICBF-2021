@@ -45,14 +45,17 @@ var slideContent =`
                             <div class="card">
 
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Variar los niveles de dificultad y apoyo
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Variar los niveles de dificultad y apoyo
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
@@ -64,23 +67,6 @@ var slideContent =`
                                             <li>Variación de los grados de libertad para un desempeño aceptable.</li>
                                             <li>Hacer hincapié en el proceso, esfuerzo y mejora en el cumplimiento de los objetivos como alternativas a la evaluación externa, los objetivos de rendimiento o la mera competencia.                                        </li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Aplicaciones para mejorar el desempeño en tareas</li>
-                                            <li>Accesos guiados</li>
-                                            <li>Palabras especiales</li>
-                                            <li>Seguimiento del rendimiento</li>
-                                            <li>Valorar esfuerzos</li>
-                                            <li>Strides</li>
-                                            <li>Way of Life</li>
-                                            <li>Goals on Track</li>
-                                            <li>Habitica</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=v2v4qZfb2qY" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
 

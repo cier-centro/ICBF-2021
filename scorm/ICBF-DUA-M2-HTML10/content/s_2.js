@@ -43,45 +43,31 @@ var slideContent =`
 
                         <div class="accordion">
                             <div class="card">
-
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Reducir las amenazas y distracciones
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Reducir las amenazas y distracciones
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
-                                            <li>Variar el nivel de novedad o de riesgo.</li>
-                                            <li>Gráficos, calendarios, programas, visibles temporizadores, señales, etc., que pueden aumentar la previsibilidad de las actividades diarias y de las transiciones.</li>
-                                            <li>Alertas y preestrenos que pueden ayudar a los estudiantes a prever y prepararse para  los cambios en las actividades, horarios y nuevos eventos.</li>
-                                            <li>Opciones que pueden, en contraste con lo anterior, maximizar lo inesperado, sorprendente u original cuando existen actividades muy rutinarias.</li>
-                                            <li>Variar el nivel de estimulación sensorial.</li>
-                                            <li>Variación de la presencia de ruido de fondo o de la estimulación visual, del ruido amortiguador, auriculares opcionales, número de características o elementos presentados a la vez.</li>
-                                            <li>Variación en el ritmo de trabajo, la duración de las sesiones de trabajo, la disponibilidad de las rupturas o tiempo fuera, el calendario y la secuencia de actividades.</li>
-                                            <li>Variar las demandas sociales necesarias para el aprendizaje y el rendimiento, la percepción de nivel de apoyo y protección, los requisitos para la exposición pública y la evaluación.</li>
+                                            <li>Crear rutinas.</li>
+                                            <li>Utilizar calendarios y recordatorios gráficos de actividades cotidianas.</li>
+                                            <li>Proporcionar avisos o alertas que permitan anticipar las tareas o actividades que se van a realizar.</li>
+                                            <li>Variar el nivel de estimulación sensorial: presencia de ruido o de estimulación visual, número de características o elementos presentados a la vez.</li>
+                                            <li>Variación en el ritmo de trabajo, la duración de las sesiones de trabajo, el calendario y la secuencia de actividades.</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Temporizador o alarma</li>
-                                            <li>Pausas activas</li>
-                                            <li>Calendarios</li>
-                                            <li>Rutinas</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=mNBmG24djoY" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
 
