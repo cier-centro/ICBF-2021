@@ -45,14 +45,17 @@ var slideContent =`
                             <div class="card">
 
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Opciones que permitan modificar y personalizar la presentación de la información
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Opciones que permitan modificar y personalizar la presentación de la información
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
@@ -65,50 +68,37 @@ var slideContent =`
                                             <li>La velocidad o tiempos de un video, animación, sonidos, simulaciones. </li>
                                             <li>La disposición de elementos visuales u otros.</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>IDentifi</li>
-                                            <li>Zoom Text</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=G2U-W3q52cc" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
 
                                 <button class=" btn collapsed card-header d-flex align-items-center item-even" data-toggle="collapse" data-target="#content2" aria-expanded="false" aria-controls="content2">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Proveer alternativas de información auditiva
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        2
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Proveer alternativas de información auditiva
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content2" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
-                                            <li>Textos equivalentes en forma de grabación o reconocimiento de voz automática a texto escrito del lenguaje hablado.</li>
+                                            <li>Textos equivalentes en forma de grabación.</li>
                                             <li>Analogías visuales para enfatizar la prosa (emociones y símbolos).</li>
                                             <li>Equivalentes visuales para efectos de sonido y alertas</li>
-                                        </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Videolibros de lenguaje de señas</li>
-                                            <li>Canales produce materiales en LS</li>
-                                            <li>“Háblalo”</li>
-                                            <li>Animación de relatos</li>
-                                            <li>Jaws</li>
-                                            <li>NDWA</li>
                                         </ul>
                                     </div>
                                 </div>
 
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content3" aria-expanded="false" aria-controls="content3">
+                                    <div class="title-number">
+                                        3
+                                    </div>
                                     <div class="title-item">
                                         <p class="mb-0">
                                             Proveer alternativas de información visual
@@ -125,21 +115,7 @@ var slideContent =`
                                             <li>Descripciones (escritas o habladas) para todos los gráficos, videos o animaciones.</li>
                                             <li>Equivalentes táctiles (gráficos táctiles) para las claves visuales.</li>
                                             <li>Objetos físicos y modelos espaciales para transmitir la perspectiva o interacción.</li>
-                                            <li>El texto es un caso especial de información visual: al ser la representación visual del lenguaje hablado, la transformación de texto a voz es el método efectuado más sencillo para incrementar la accesibilidad. </li>
-                                            <li>Textos en formato digital apropiado (NIMAS, DAISY). Este texto puede ser automáticamente transformado en otras modalidades (en voz, usando la voz en un programa de texto a voz o en táctil, usando un programa de braille) y dirigidos eficientemente por “Lectores de Pantalla”.</li>
-                                            <li>Ayudantes competentes, compañeros o mediadores que puedan leer un texto en voz alta cuando sea necesario.</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Be my eyes</li>
-                                            <li>Prizmo</li>
-                                            <li>Brailleback</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=0r_VW0EP_a8" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
 

@@ -40,45 +40,34 @@ var slideContent =`
 
                 <div class="row align-items-center justify-content-between">
                     <div class="col-lg-8">
-
                         <div class="accordion">
                             <div class="card">
-
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Proveer o activar conocimientos previos.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Proveer o activar conocimientos previos.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
                                             <li>Anclando la enseñanza y activando el conocimiento previo relevante (por ejemplo, utilizando imágenes visuales, conceptos incluyentes, rutinas).</li>
-                                            <li>Uso de los organizadores avanzados (por ejemplo, los mapas conceptuales).</li>
-                                            <li>Enseñanza previa de los conceptos que son prerrequisitos, a través de demostraciones, modelos u objetos concretos.</li>
+                                            <li>Usando de los organizadores avanzados (por ejemplo, los mapas conceptuales gráficos).</li>
+                                            <li>Describiendo previamente los conceptos que son prerrequisito, a través de demostraciones, modelos u objetos concretos.</li>
                                             <li>Aportando analogías relevantes o metáforas</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Dibugrama</li>
-                                            <li>Virtael</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=QE2QYxogT_U" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                     <div class="col-lg-3 mt-3 text-center">
                         <img class="img-fluid" src="images/img_s2.png">

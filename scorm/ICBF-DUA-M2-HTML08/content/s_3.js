@@ -44,54 +44,42 @@ var slideContent =`
                         <div class="accordion">
                             <div class="card">
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Decodificar el texto y las notaciones matemáticas.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Facilitar la decodificación sencilla de textos, notaciones matemáticas y símbolos que no conozcan.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
-                                            <li>Textos digitales  usados  con programas  automáticos de  texto a voz.</li>
-                                            <li>Notaciones matemáticas  digitales  (MATH ML) con voz automática.</li>
-                                            <li>Textos digitales acompañados de grabación de voz humana (Daisy Talking Books).</li>
+                                            <li>Textos digitales acompañados de grabación de voz humana.</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>MATH ML</li>
-                                            <li>Daisy Talking Books</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=LiE91L8Wzm8" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                                 <button class=" btn collapsed card-header d-flex align-items-center item-even" data-toggle="collapse" data-target="#content2" aria-expanded="false" aria-controls="content2">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Promover la comprensión entre diferentes idiomas.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        2
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Promover la comprensión y la interacción de diferentes idiomas y culturas.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content2" class="collapse">
                                     <div class="card-body p-3">
-                                        <p>Derecho al lenguaje de señas como un derecho fundamental</p>
-                                        <div class="text-center mb-3">
-                                            <a href="https://www.youtube.com/watch?v=-MEKqDMBzrw" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
-                                        <p>Fuente: adaptado de Centro Internacional de Alta Tecnología para la Audición y el Lenguaje, s. f.</p>
+                                        <p>Derecho al lenguaje de señas como un derecho fundamental.</p>
                                     </div>
                                 </div>
                             </div>

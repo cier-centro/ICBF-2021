@@ -1,12 +1,10 @@
 .accordion {
-
     font-size: 1.3rem;
+
     .top-title {
         background-color: $orange-semilight;
         border-radius: 1em 1em 0 0;
         color: $green-dark;
-
-
     }
 
     .btn-link{
@@ -24,8 +22,6 @@
     .card {
         border: none;
 
-
-
         .card-header {
 
             background-color: $green-dark;
@@ -33,16 +29,18 @@
             font-size: 1.3rem;
             border-radius: 0;
 
-
             &.item-even{
                 background-color: $green-semi-dark;
             }
-
 
             .title-item{
                 width: 95%;
             }
 
+            .title-number{
+                font-size: 1.5rem;
+                font-family: "Asap-Bold";
+            }
 
             .down-pointer {
                 margin: 0 auto;
@@ -61,15 +59,11 @@
             &:hover {
                 background-color: $green-medium;
             }
-
-
         }
 
         .card-body {
             background-color: $green-ultralight;
             color: $green-dark;
-
-
         }
     }
 }
