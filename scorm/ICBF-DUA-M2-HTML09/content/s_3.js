@@ -44,74 +44,53 @@ var slideContent =`
                         <div class="accordion">
                             <div class="card">
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Permitir opciones de formas de comunicación.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Permitir opciones de formas de comunicación.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <p>Componer en varios medios o formatos:</p>
                                         <ul>
-                                            <li>Texto</li>
-                                            <li>Discurso oral</li>
-                                            <li>Dibujo, ilustración y diseño</li>
-                                            <li>Manipulación física (por ejemplo, bloques o modelos 3D)</li>
-                                            <li>Cine o video</li>
-                                            <li>Multimedia (diseños de web, guiones gráficos o cómic)</li>
-                                            <li>Música, artes visuales o esculturas</li>
+                                            <li>Usar objetos físicos manipulables (bloques, modelos 3D, regletas, ábacos, etc.).</li>
+                                            <li>Usar y/o proporcionar aplicaciones de comunicación y herramientas web interactivas.</li>
+                                            <li>Utilizar diferentes estrategias para la resolución de problemas.</li>
+                                            <li>Componer manejando múltiples medios (texto, voz, dibujos, video, música, movimiento, arte visual, esculturas, etc.).</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Cine para todos</li>
-                                            <li>Google Talk Back</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=D96OZkx2bOs" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                                 <button class=" btn collapsed card-header d-flex align-items-center item-even" data-toggle="collapse" data-target="#content2" aria-expanded="false" aria-controls="content2">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Proveer formas de apoyo, andamiaje y desempeño graduado.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        2
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Proveer formas de apoyo, andamiaje y desempeño graduado.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content2" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
-                                            <li>Proporcionar diferentes modelos para emular; es decir, modelos que muestran los mismos resultados, pero usan diferentes enfoques, estrategias, habilidades, etc.</li>
-                                            <li>Proporcionar diferentes tutores; es decir, agentes educativos que utilizan diferentes métodos para motivar, orientar, informar o comentar.</li>
-                                            <li>Proporcionar apoyos (“andamios”) que puedan ser liberados gradualmente con un aumento de la independencia y las competencias (por ejemplo, software de lectura digital y de escritura).</li>
-                                            <li>Proporcionar retroalimentación diferenciada (por ejemplo, información que esa accesible y que puede adaptarse o personalizarse para los alumnos).</li>
+                                            <li>Proporcionar diferentes modelos para simular; es decir, modelos que muestran los mismos resultados, pero usan diferentes enfoques, estrategias, habilidades, etc.</li>
+                                            <li>Proporcionar diferentes tutores; es decir, agentes educativos y pares que utilizan diferentes métodos para motivar, orientar, informar o comentar.</li>
+                                            <li>Proporcionar apoyos que puedan retirarse gradualmente según aumenta de la independencia, habilidades y autonomía. </li>
+                                            <li>Proporcionar retroalimentación diferenciada (por ejemplo, información que esa accesible y que puede adaptarse o personalizarse).</li>
+                                            <li>Proporcionar ejemplos de soluciones novedosas a problemas reales.</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Moodle</li>
-                                            <li>Claseduc (tutor)</li>
-                                        </ul>
-                                        <div class="text-center mb-3">
-                                            <a href="https://www.youtube.com/watch?v=LjCzbSLyIwI" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
-                                        <div class="text-center mb-3">
-                                            <a href="https://www.youtube.com/watch?v=7SgOmZIZgB0" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

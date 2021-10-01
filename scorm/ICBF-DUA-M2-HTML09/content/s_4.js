@@ -44,75 +44,58 @@ var slideContent =`
                         <div class="accordion">
                             <div class="card">
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Facilitar el manejo de información y recursos.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Facilitar la gestión de información y de recursos para mejorar las experiencias significativas.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
-                                            <li>Gráficos que organizan y plantillas para la recogida de datos y la organización de la información.</li>
-                                            <li>Insertar instrucciones para clasificar y sistematizar.</li>
-                                            <li>Listas de referencia y guías para la toma de notas.</li>
+                                            <li>Incorporar apoyos para hacer una estimación previa del esfuerzo, los recursos que se van a utilizar y el grado de dificultad.</li>
+                                            <li>Usar modelos o ejemplos del proceso y resultados para la definición de metas, usando gráficos si es necesario.</li>
+                                            <li>Proporcionar listas de comprobación para definir objetivos usando gráficos si es necesario.</li>
+                                            <li>Hacer visibles los objetivos usando gráficos si es necesario.</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Agenda del estudiante</li>
-                                            <li>Notas</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=2jd5_MgHavI" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                                 <button class=" btn collapsed card-header d-flex align-items-center item-even" data-toggle="collapse" data-target="#content2" aria-expanded="false" aria-controls="content2">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Mejorar la capacidad para el proceso del monitoreo.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        2
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Aumentar la capacidad para monitorear el progreso.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content2" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
-                                            <li>Preguntas guiadas para la auto-supervisión.</li>
-                                            <li>Representaciones de los progresos (por ejemplo, fotos del antes y el después, gráficos y tablas que muestran el progreso en el tiempo).</li>
-                                            <li>Plantillas que guían la auto-reflexión con calidad y exhaustividad.</li>
-                                            <li>Modelos diferenciales de estrategia de auto-evaluación.</li>
+                                            <li>Realizar preguntas para reflexionar sobre el trabajo desarrollado.</li>
+                                            <li>Usar representaciones de los avances (antes y después) con gráficas, fotos, que muestren el progreso en el tiempo.</li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>GoalGetter</li>
-                                            <li>Lumosity</li>
-                                        </ul>
-                                        <div class="text-center mb-3">
-                                            <a href="https://www.youtube.com/watch?v=RUquub_otv0" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
                     <div class="col-lg-3 mt-3 text-center">
                         <img class="img-fluid" src="images/img_s2.png">
                     </div>
                 </div>
-
             </div>
         </div>
         <div class="row">

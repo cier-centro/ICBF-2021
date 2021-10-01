@@ -45,69 +45,46 @@ var slideContent =`
                             <div class="card">
 
                                 <button class=" btn collapsed card-header d-flex align-items-center" data-toggle="collapse" data-target="#content1" aria-expanded="false" aria-controls="content1">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Proveer diferentes maneras de respuesta.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        1
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Proveer diferentes maneras de respuesta.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content1" class="collapse">
                                     <div class="card-body p-3">
                                         <p><b>Ejemplos:</b></p>
                                         <ul>
-                                            <li>Proporcionar alternativas en los requisitos para las tasas, los tiempos de reacción, la amplitud y la variedad de la acción motora necesarias para interactuar con los materiales de instrucción, con las manipulaciones físicas o con las tecnologías.</li>
-                                            <li>Proporcionar alternativas para responder físicamente, indicando entre selecciones alternativas (por ejemplo, alternativas marcando con el bolígrafo / lápiz, o con el ratón del computador).</li>
+                                            <li>Proporcionar alternativas en el ritmo, en los plazos y en variedad de acción que hay que realizar para interactuar con los materiales de instrucción y para responder a las preguntas o instrucciones.</li>
+                                            <li>Permitir alternativas para dar respuestas físicas o por selección. </li>
                                         </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>Háblalo</li>
-                                            <li>Picto Traducción</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=O0xdaCEqrU0" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
                                     </div>
                                 </div>
 
                                 <button class=" btn collapsed card-header d-flex align-items-center item-even" data-toggle="collapse" data-target="#content2" aria-expanded="false" aria-controls="content2">
-                                        <div class="title-item">
-                                            <p class="mb-0">
-                                                Proveer diferentes maneras de interactuar con el material.
-                                            </p>
-                                        </div>
-                                        <div class="down-pointer">
-                                            <img class="img-fluid" src="images/img_arrow_dropdown.png">
-                                        </div>
+                                    <div class="title-number">
+                                        2
+                                    </div>
+                                    <div class="title-item">
+                                        <p class="mb-0">
+                                            Proveer diferentes maneras de interactuar con el material.
+                                        </p>
+                                    </div>
+                                    <div class="down-pointer">
+                                        <img class="img-fluid" src="images/img_arrow_dropdown.png">
+                                    </div>
                                 </button>
                                 <div id="content2" class="collapse">
                                     <div class="card-body p-3">
-                                        <p><b>Proporcionar alternativas para interactuar físicamente con los materiales:</b></p>
-                                        <ul>
-                                            <li>A mano</li>
-                                            <li>Por voz</li>
-                                            <li>Por un solo botón</li>
-                                            <li>Por el <i>joystick</i></li>
-                                            <li>Por teclado o por el teclado adaptado</li>
-                                        </ul>
-                                        <p><b>Tecnologías:</b></p>
-                                        <ul>
-                                            <li>HeadMouse (manejar el computador con movimientos de la cabeza)</li>
-                                            <li>Camera Mouse</li>
-                                        </ul>
-                                        <div class="text-center">
-                                            <a href="https://www.youtube.com/watch?v=PkGwM9ufUbk" target="_blank" class="btn btn-link">
-                                                <img class="img-fluid" src="images/img_btn_link.png">
-                                            </a>
-                                        </div>
+                                        <p>Ofrecer alternativas y/o apoyos distintos para interactuar físicamente con los materiales (con las manos, o por voz, o con el apoyo de otro niño/niña o adulto).</p>
                                     </div>
                                 </div>
-
-
 
                             </div>
                         </div>

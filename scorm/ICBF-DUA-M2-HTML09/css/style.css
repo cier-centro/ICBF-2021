@@ -724,6 +724,10 @@ ul li {
 .accordion .card .card-header .title-item {
   width: 95%;
 }
+.accordion .card .card-header .title-number {
+  font-size: 1.5rem;
+  font-family: "Asap-Bold";
+}
 .accordion .card .card-header .down-pointer {
   margin: 0 auto;
   transform: rotateZ(0deg);
