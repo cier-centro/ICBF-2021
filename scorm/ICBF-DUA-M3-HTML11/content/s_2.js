@@ -40,7 +40,7 @@ var slideContent =`
                         <div class="row align-items-center justify-content-between mb-3">
 
                             <div class="col-lg-12 p-box">
-                                <p>Acompáñenos en el recorrido por estas actividades que están basadas y adaptadas según el Diseño Universal parae el Aprendizaje, y que le darán una idea de lo que puede hacer en el aula como estrategia para generar espacios inclusivos.</p>         
+                                <p>Acompáñenos en el recorrido por estas actividades que están basadas y adaptadas según el Diseño Universal para el Aprendizaje, y que le darán una idea de lo que puede hacer en el aula como estrategia para generar espacios inclusivos.</p>         
                             </div>
                         </div>
                     </div>
