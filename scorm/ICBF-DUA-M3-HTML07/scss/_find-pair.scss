@@ -1,0 +1,26 @@
+//Cartas seleccion
+.select-card-active{
+  height: fit-content;
+  user-select: none;
+  margin-top: 1em;
+
+  .select-card-inner {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 0.5em;
+    background-color: $green-dark;
+    text-align: center;
+    p{
+      color:$white-site;
+      font-size: 0.8em;
+      font-family: 'Montserrat-ExtraLight';
+    }
+    b{
+      color: $yellow-site;
+    }
+  }
+  .selected{
+    border: 4px solid $yellow-site;
+  }
+}
+//----------

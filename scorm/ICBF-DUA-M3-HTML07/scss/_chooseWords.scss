@@ -1,0 +1,36 @@
+.chooseWordContainer{
+
+  background-color: $green-semi-dark;
+  border-radius: 15px;
+  padding: 1rem;
+
+  p{
+    color:$white-site;
+    font-size: 0.6em;
+    line-height: 3em;
+  }
+  .chooseWord{
+    cursor: pointer;
+    color: $green-dark;
+    text-decoration: none;
+
+    padding: 0.5em 0.8em;
+    border-radius: 5px;
+    margin-bottom: 1em;
+    background-color: $green-ultralight;
+    &:hover{
+        background-color: $green-light;
+        color: $white-site;
+    }
+  }
+  .choosed{
+
+    color: $green-dark;
+    background-color: $yellow-site;
+    &:hover{
+        background-color: $green-light;
+        color: $white-site;
+    }
+  }
+
+}
