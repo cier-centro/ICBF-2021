@@ -22,7 +22,7 @@ var slideContent =`
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-sm-6 col-md-6 col-lg-6">
-                        <p class="p-box"> <b>Actividad 5: </b> MI CUERPO, TU CUERPO, NUESTRO CUERPOS</p>
+                        <p class="p-box"> <b>Actividad 5: </b> MI CUERPO, TU CUERPO, NUESTROS CUERPOS</p>
                     </div>
                     <div class="col-sm-12">
                         <div class="row answers-buttons">
@@ -102,7 +102,7 @@ var slideContent =`
         </div>
         <div class="mb-4">
             <img class="ok-img" src="images/img_s3_ok.png">
-            <p>Reconocer la diferentes características físicas de las personas</p>
+            <p>Reconocer las diferentes características físicas de las personas</p>
         </div>
         <div class="mb-4">
             <img class="ok-img" src="images/img_s3_ok.png">

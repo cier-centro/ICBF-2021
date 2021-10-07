@@ -128,7 +128,7 @@ var slideContent =`
     <div class="modal-content">
       <div class="modal-body">
         <p> <b class="content-title mb-4">Materiales:</b> diferentes texturas: guantes ásperos y suaves, manoplas de peluche, vibradores corporales y faciales, esponjas ásperas y suaves, limas, piedra pómez, retazos de diversas telas, estropajo, tiras de papel de arroz. Tapetes de 20 x 20 de diversas texturas y aserrín, guata, algodón, arena, seda, peluche, entre otros. </p>
-        <p> <b class="content-title">Procedimiento:</b> es primordial contar con un lugar cómodo. Se les ira mostrando a las niñas y niños cada uno de los materiales. A medida que se frotan las texturas, se habla de manera descriptiva sobre las diferencias q se han observado y sentido. Es importante que todas las niñas y niños se involucren en la actividad. </p>
+        <p> <b class="content-title">Procedimiento:</b> es primordial contar con un lugar cómodo. Se les ira mostrando a las niñas y niños cada uno de los materiales. A medida que se frotan las texturas, se habla de manera descriptiva sobre las diferencias que se han observado y sentido. Es importante que todas las niñas y niños se involucren en la actividad. </p>
         <div class="row">
           <div class="col">
             <a href="#" class="btn btn-link btn-next float-right mt-4" data-dismiss="modal"></a>
