@@ -507,6 +507,18 @@ body {
   color: #0C5924;
   font-family: "Asap-Regular";
 }
+.p-container cite {
+  color: #0C5924;
+  font-family: "Asap-Regular";
+  font-size: 0.9em;
+}
+.p-container cite a {
+  color: #0C5924;
+  text-decoration: underline;
+}
+.p-container .instruction {
+  font-size: 1em !important;
+}
 
 .exit-image {
   text-align: center !important;

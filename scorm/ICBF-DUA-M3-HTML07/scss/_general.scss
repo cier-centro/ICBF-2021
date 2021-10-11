@@ -459,6 +459,21 @@ body {
     color: $green-dark;
     font-family: "Asap-Regular";
   }
+
+    cite{
+        color: $green-dark;
+        font-family: "Asap-Regular";
+        font-size: 0.9em;
+
+        a{
+            color: $green-dark;
+            text-decoration: underline;
+        }
+    }
+
+    .instruction {
+        font-size: 1em !important;
+    }
 }
 
 .exit-image {
@@ -505,6 +520,7 @@ body {
     font-size: 0.6em;
     font-family: "Asap-Regular";
   }
+
 }
 
 .instruction {

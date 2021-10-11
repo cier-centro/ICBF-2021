@@ -1,4 +1,4 @@
-var slideTitle = "Actividad de CompleteText";
+var slideTitle = "";
 var slideContent = `
 <div class="row info-container">
     <div class="col">
@@ -6,13 +6,13 @@ var slideContent = `
             <div class="main-logo-header-left col-md-1 col-2"><img class="img-fluid" src="./images/logo-header.png">
             </div>
             <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5">
-                <p>Diseño Universal para el Aprendizaje - DUA &gt; Educación Inclusiva</p>
+                <p>Diseño Universal del Aprendizaje - DUA</p>
             </div>
             <div class="col-2 col-md-3"><a href="#" onclick="currentSlide(1)" class="btn btn-link btn-home float-right"></a></div>
         </div>
         <div class="row title-row">
             <div class="col d-flex align-items-center row">
-                <p class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5 mb-0">Educación inclusiva</p>
+                <p class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5 mb-0">Toma de conciencia (FSC)</p>
                 <div class="col-2 col-md-3">
                     <img class="img-fluid float-right" src="images/img_s2_1.png" alt="Educación inclusiva">
                 </div>
@@ -46,7 +46,7 @@ var slideContent = `
         <div class="row">
             <div class="col">
                 <a href="#" onclick="currentSlide(3) " class="btn btn-link btn-back float-left mt-4"></a>
-                <a href="#" onclick="currentSlide(5) " class="btn btn-link btn-next float-right mt-4" id="btnNext"></a>
+                <a href="#" onclick="currentSlide(6) " class="btn btn-link btn-next float-right mt-4" id="btnNext"></a>
             </div>
         </div>
     </div>

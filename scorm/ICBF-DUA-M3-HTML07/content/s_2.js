@@ -1,4 +1,4 @@
-var slideTitle = "Educación inclusiva";
+var slideTitle = "";
 var slideContent =`
 <div class="row info-container">
     <div class="col">
@@ -6,27 +6,38 @@ var slideContent =`
             <div class="main-logo-header-left col-md-1 col-2"><img class="img-fluid" src="./images/logo-header.png">
             </div>
             <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5">
-                <p>Diseño Universal para el Aprendizaje - DUA &gt; Educación Inclusiva</p>
+                <p>Diseño Universal del Aprendizaje - DUA</p>
             </div>
             <div class="col-2 col-md-3"><a href="#" onclick="currentSlide(1) "
                     class="btn btn-link btn-home float-right"></a></div>
         </div>
         <div class="row title-row">
             <div class="col d-flex align-items-center row">
-                <p class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5 mb-0">Educación inclusiva</p>
+                <p class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5 mb-0">Toma de conciencia (FSC)</p>
                 <div class="col-2 col-md-3">
                     <img class="img-fluid float-right" src="images/img_s2_1.png" alt="Educación inclusiva">
                 </div>
             </div>
         </div>
         <div class="row align-items-center">
-
             <div class="col-lg-10 offset-lg-1 my-3 p-container p-box">
-                <p class="text-center"><b>Lectura</b></p>
-                <p>Los estereotipos sexistas sobre las mujeres se intensifican sobre las mujeres con discapacidad, así la imagen patriarcal sobre las mujeres basadas en la vulnerabilidad, la dependencia y la debilidad cobra mayor fuerza, es más, en ellas la pasividad es percibida en grado extremo, y también se intensifica la mirada negativa y de lástima. La imagen social de la mujer con discapacidad, viene marcada por estereotipos negativos que han propiciado su aislamiento y exclusión social, es concebida como una eterna niña que, negada de toda capacidad y por tanto de libertad, queda circunscrita al ambiente familiar y extremadamente limitada su participación social, superponiéndose exponencialmente los dos componentes: el de género y el de discapacidad. Este prisma incide en la forma en la que la mujer con discapacidad se ve, pues al sentirse percibida como menos atractiva, poco formada, como objeto de preocupación y compasión, se genera un menoscabo en su auto-percepción y autoestima. Además de las barreras que toda persona con discapacidad encuentra (físicas, a la comunicación), las mujeres con discapacidad se ven especialmente afectadas por las actitudinales, ya que éstas provocan mayor invisibilidad, sobreprotección y desempeño de roles tradicionales como los de madre, esposa o cuidadora.</p>
-                <p class="instruction">A partir de la lectura «La discapacidad en el espejo – factores multiplicadores de exclusión y discriminación», responde:</p>
+                <p class="text-center"><b>Lectura: “Creciendo en igualdad”</b></p>
+                <p>Promover normas, roles y relaciones de género no discriminatorias, especialmente con los niños, niñas y adolescentes, es la clave para combatir los estereotipos de género y, por consiguiente, prevenir situaciones de desigualdad en el futuro.</p>
+                <p>Los estereotipos de género son creencias que existen en todas las sociedades. Son opiniones y percepciones generalizadas acerca de atributos o características que hombres y mujeres, niños y niñas poseen o deberían poseer.</p>
+                <p>Por lo tanto, se basan en nomas sociales y culturales y no en factores biológicos.</p>
+                <p>Por estar basados en percepciones, los estereotipos pueden imponer obstáculos y hasta causar daño a otras personas.</p>
+                <p>Al mismo tiempo, los estereotipos pueden tener un efecto negativo ya que no se basan en evidencias de competencias sino en prejuicios sobre algunos grupos de personas. Por ejemplo, se puede pensar que los varones afrodescendientes son menos inteligentes y más violentos mientras que se puede pensar que las niñas indígenas son sumisas.</p>
+                <p>A pesar de ello, los estereotipos no son rígidos y pueden cambiar, lo han hecho a lo largo del tiempo.</p>
+                <p>¿Por qué la igualdad de género es importante para los niños, niñas y adolescentes?</p>
+                <p>Los estereotipos de género no están biológicamente arraigados a nuestro ADN, sino que se construyen y definen social, cultural e históricamente (influidos por familiares, amistades, compañeros, líderes de fe, celebridades, escuelas, clubes, hospitales y medios publicitarios).</p>
+                <p>Los estereotipos no siempre son negativos, pero dado que son conjeturas que no consideran las habilidades, oportunidades y características propias de la persona, pueden ser perjudiciales.</p>
+                <blockquote>
+                    <cite>Tomado de: Creciendo en igualdad. Guía para madres, padres, tutores y profesorado para enfrentar los estereotipos de género y promover un trato igualitario entre niños, niñas y adolescentes. Unicef, 2019. Pag. 2- 5. <a href="https://www.unicef.org/chile/media/3076/file/lacro-igualdad.pdf" target="_blank">https://www.unicef.org/chile/media/3076/file/lacro-igualdad.pdf</a></cite>
+                </blockquote>
+                <p class="instruction">
+                    <b>A partir de la lectura anterior responda:</b>
+                </p>
             </div>
-
             <div class="col-lg-10 offset-lg-1">
                 <div class="row answers-buttons">
                     <div class="col-sm-12">
@@ -43,7 +54,7 @@ var slideContent =`
                     <div class="col-sm-12" id="g_1">
                         <button type="button" class="btn btn-light square-left">
                             <p class="answer-text">
-                                La sociedad, culturalmente ha creado unos parámetros que van de acuerdo a lo que reconocemos como “mujer”. Es natural que para las mujeres con discapacidad dichos parámetros sociales no recaigan de la misma forma, en lugar de eso, parecen desdibujarse y comprender a cada mujer con discapacidad como un ser único.
+                                Los estereotipos basados en percepciones erróneas que justifican la discriminación de género, entorpecen la habilidad de las personas de expresarse, limitando sus elecciones y oportunidades.
                             </p>
                             <div class="answer-sign true">
                                 <div class="circle"></div>
@@ -56,7 +67,7 @@ var slideContent =`
                     <div class="col-sm-12" id="g_2">
                         <button type="button" class="btn btn-light square-left">
                             <p class="answer-text">
-                                Es común que para la sociedad se entienda a las personas con discapacidad como el “eterno infante”.
+                                Los estereotipos de género fomentan la igualdad.
                             </p>
                             <div class="answer-sign true">
                                 <div class="circle"></div>
@@ -69,7 +80,7 @@ var slideContent =`
                     <div class="col-sm-12" id="g_3">
                         <button type="button" class="btn btn-light square-left">
                             <p class="answer-text">
-                                Es posible afirmar, después de la lectura, que a las mujeres con discapacidad se les niegan roles como ser madres o ser cuidadoras, por concebirles la creencia que deben ser objetos de cuidado permanente en el hogar.
+                                Los estereotipos y las discriminaciones de género son perjudiciales para las sociedades porque atentan contra los derechos humanos.
                             </p>
                             <div class="answer-sign true">
                                 <div class="circle"></div>
@@ -82,7 +93,8 @@ var slideContent =`
                     <div class="col-sm-12" id="g_4">
                         <button type="button" class="btn btn-light square-left">
                             <p class="answer-text">
-                                La relación entre pobreza y discapacidad puede traer efectos beneficiosos, ya que a las personas en condición de pobreza se les otorga más oportunidades en la sociedad, y así, su discapacidad no se presenta de forma limitante, sino al contrario, como un espacio de oportunidades.
+                                Sólo las niñas y las mujeres sienten los efectos de los estereotipos de género. No es cierto que hay una enorme presión sobre los hombres y los niños para que actúen y se ajusten a roles específicos que los restringen también; como las expectativas de que los hombres y los niños no
+                                muestren ciertas emociones.
                             </p>
                             <div class="answer-sign true">
                                 <div class="circle"></div>
@@ -95,7 +107,7 @@ var slideContent =`
                     <div class="col-sm-12" id="g_5">
                         <button type="button" class="btn btn-light square-left">
                             <p class="answer-text">
-                                Es posible entender el término de interseccionalidad, después de la lectura, como ese espacio en donde se entrecruzan factores propios de cualquier persona, como lo es la raza, la etnia, la religión, el nivel socioeconómico, el género, la presencia o no de discapacidad y el sexo.
+                                La familia, la comunidad y la sociedad, tienen la responsabilidad de crear un ambiente favorable y crear modelos que promuevan la igualdad.
                             </p>
                             <div class="answer-sign  true">
                                 <div class="circle"></div>
@@ -128,7 +140,6 @@ var slideContent =`
         <div class="modal-content">
             <div class="modal-body">
                 <h4 class="modal-title">¡Felicitaciones!</h4>
-                <p>Comprendes la importancia de reconocer los derechos de las personas con discapacidad en las sociedades actuales.</p>
             </div>
         </div>
     </div>
@@ -138,7 +149,7 @@ var slideContent =`
         <div class="modal-content">
             <div class="modal-body">
                 <h4 class="modal-title">¡Vuelva a intentarlo!</h4>
-                <p>Revisa nuevamente la lectura de La Discapacidad en el Espejo- Factores multiplicadores de exclusión y discriminación.</p>
+                <p>Revisa nuevamente la lectura.</p>
             </div>
         </div>
     </div>
@@ -156,7 +167,7 @@ var slideActivityContent = {
 
 var totalQuestions = 5;
 var currentAnswers = new Array(totalQuestions);
-var correctAnswers = ["F", "V", "V", "F", "V"];
+var correctAnswers = ["V", "F", "V", "F", "V"];
 
 var finishedActivity = false;
 $(document).ready(function () {

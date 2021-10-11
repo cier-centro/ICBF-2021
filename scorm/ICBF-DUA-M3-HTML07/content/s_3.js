@@ -1,4 +1,4 @@
-var slideTitle = "Educación inclusiva";
+var slideTitle = "";
 var slideContent =`
 <div class="row info-container">
     <div class="col-sm-12">
@@ -6,14 +6,14 @@ var slideContent =`
             <div class="main-logo-header-left col-md-1 col-2"><img class="img-fluid" src="./images/logo-header.png">
             </div>
             <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5">
-                <p>Diseño Universal para el Aprendizaje - DUA &gt; Educación Inclusiva</p>
+                <p>Diseño Universal del Aprendizaje - DUA</p>
             </div>
             <div class="col-2 col-md-3"><a href="#" onclick="currentSlide(1) "
                     class="btn btn-link btn-home float-right"></a></div>
         </div>
         <div class="row title-row">
             <div class="col d-flex align-items-center row">
-                <p class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5 mb-0">Educación inclusiva</p>
+                <p class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5 mb-0">Toma de conciencia (FSC)</p>
                 <div class="col-2 col-md-3">
                     <img class="img-fluid float-right" src="images/img_s2_1.png" alt="Educación inclusiva">
                 </div>
@@ -26,45 +26,58 @@ var slideContent =`
         </div>
         <div class="row align-items-center">
             <div class="col-sm-10 offset-sm-1">
-                <div class="card-deck row">
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_1">
+                <div class="card-deck row align-items-center">
+                    <div class="select-card-active col-lg-6" id="card_1">
                         <div class="select-card-inner">
-                            <p><b>Discapacidad en el ámbito de derechos humanos</b></p>
+                            <p><b>Interseccionalidad</b></p>
                         </div>
                     </div>
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_2">
+                    <div class="select-card-active col-lg-6" id="card_2">
                         <div class="select-card-inner">
-                            <p>Supone reconocer y proclamar un deseo de reconocimiento.</p>
+                            <p>Espacio en donde se entrecruzan factores propios de cualquier persona, como la raza, la etnia, la religión, el nivel socioeconómico, el género, la presencia o no de discapacidad y el sexo.</p>
                         </div>
                     </div>
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_3">
+                    <div class="select-card-active col-lg-6" id="card_3">
                         <div class="select-card-inner">
-                            <p><b>Toma de conciencia</b></p>
+                            <p><b>Para promover comportamientos más igualitarios se debe:</b></p>
                         </div>
                     </div>
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_4">
+                    <div class="select-card-active col-lg-6" id="card_4">
                         <div class="select-card-inner">
-                            <p>Está dada desde el entender a la otra persona cuando nos percatamos de su existecia.</p>
+                            <p>Incentivar juegos, juguetes y canciones no discriminatorios, que no segreguen ni categoricen espacios, temas, actividades
+                            y roles para los niños y niñas.</p>
                         </div>
                     </div>
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_5">
+                    <div class="select-card-active col-lg-6" id="card_5">
                         <div class="select-card-inner">
-                            <p><b>Las barreras dadas desde lo social y jurídico</b></p>
+                            <p><b>Estereotipos de género</b></p>
                         </div>
                     </div>
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_6">
+                    <div class="select-card-active col-lg-6" id="card_6">
                         <div class="select-card-inner">
-                            <p>Son elementos que determinan el nivel de discapacidad.</p>
+                            <p>Opiniones o prejuicios generalizados acerca de atributos o características que hombres y mujeres, niños y niñas poseen o deberían poseer y de las funciones sociales que ambos desempeñan o deberían desempeñar.</p>
                         </div>
                     </div>
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_7">
+                    <div class="select-card-active col-lg-6" id="card_7">
                         <div class="select-card-inner">
-                            <p><b>Primer paso hacia la toma de conciencia</b></p>
+                            <p><b>Discriminación de género:</b></p>
                         </div>
                     </div>
-                    <div class="select-card-active col-xl-3 col-lg-6" id="card_8">
+                    <div class="select-card-active col-lg-6" id="card_8">
                         <div class="select-card-inner">
-                            <p>Reconocer la discriminación y la exclusión.</p>
+                            <p>hace referencia a la negación de oportunidades y derechos o a dar un trato preferencial a las personas,
+                            basado en su género.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="select-card-active col-lg-6" id="card_7">
+                        <div class="select-card-inner">
+                            <p><b>Equidad de género:</b></p>
+                        </div>
+                    </div>
+                    <div class="select-card-active col-lg-6" id="card_8">
+                        <div class="select-card-inner">
+                            <p>Imparcialidad en el trato que reciben mujeres y hombres de acuerdo con sus necesidades respectivas, ya sea con un trato igualitario o con uno diferenciado pero que se considera equivalente en derechos, beneficios, obligaciones y posibilidades.</p>
                         </div>
                     </div>
                 </div>
@@ -112,7 +125,8 @@ var slideActivityContent = {
     [1, 2],
     [3, 4],
     [5, 6],
-    [7, 8]
+    [7, 8],
+    [9,10]
   ],
   //(0/1) Establecer retroalimentación para pareja correcta: "allowCheckPair" incorrecta: allowCheckPairWrong y/o al finalizar: "allowCheckEnd"
   allowCheckPair: 0,
@@ -123,7 +137,7 @@ var slideActivityContent = {
   //Randomizar tarjetas
   allowRandom: true,
   //Retroalimentacion Correcto
-  feedbackCorrect:['¡Felicitaciones!','<p>Identificas los pasos que se han de seguir para el reconocimiento de los Derechos y la toma de conciencia, de las personas en condición de Discapacidad. </p>'],
+  feedbackCorrect:['¡Felicitaciones!',''],
   //Retroalimentacion Incorrecto
   feedbackWrong:'',
   //Retroalimentacion para cada pareja correcta
@@ -131,11 +145,12 @@ var slideActivityContent = {
     [' ' ,'<p></p>'],
     [' ','<p></p>'],
     [' ','<p></p>'],
+    [' ','<p></p>'],
     [' ','<p></p>']
   ],
   //Retroalimentacion para cada pareja incorrecta
   feedbackPairWrong:[
-    ['¡Vuelva a intentarlo!','Revisa nuevamente la lectura de La Discapacidad en el Espejo-Artículo 8 de la convención.'],
+    ['¡Vuelva a intentarlo!','Revisa nuevamente la lectura.'],
   ]
 };
 

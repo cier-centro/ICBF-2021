@@ -14,8 +14,8 @@ var slideContent = `
           <div class="col-md-7 col-sm-12 text-container align-items-center d-flex justify-content-center">
             <div class="text-center">
               <h2 class="tx-light-green my-4 mt-md-0">Ahora continúe revisando los demás recursos a su disposición</h2>
-              <h1 class="tx-light-green">Educación</h1>
-              <h1 class="yellow-text">inclusiva</h1>
+              <h1 class="tx-light-green">Diseño Universal</h1>
+              <h1 class="yellow-text">para el Aprendizaje</h1>
             </div>
           </div>
         </div>

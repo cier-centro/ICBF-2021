@@ -14,15 +14,15 @@ var slideContent =`
                     </div>
                     <div class="col-md-7 col-sm-12 text-container align-items-center d-flex justify-content-center">
                         <div class="text-center">
-                            <h1 class="tx-light-green">Educación</h1>
-                            <h1 class="yellow-text">inclusiva</h1>
-                            <h4 class="white-text">Actividades</h4>
+                            <h1 class="tx-light-green">Diseño Universal</h1>
+                            <h1 class="yellow-text">para el Aprendizaje</h1>
+                            <h4 class="white-text">Toma de conciencia (FSC)</h4>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mb-5">
             <div class="text-center">
                 <a href="#" onclick="currentSlide(2) " class="btn btn-link btn-access mt-4 mt-lg-3 mt-xl-5">Acceder</a>
             </div>
