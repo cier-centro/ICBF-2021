@@ -22,15 +22,16 @@ var slideContent =`
             <div class="container">
                 <div class="row d-flex responsive-container">
                     <div class="col-lg-4 col-md-4 col-sm-10 s4-container">
-                      <p class="p-box"> <b>Ejercicios que contempla el diagnóstico situacional </b> </p>
+                    <p class="p-box"> <b>La sistematización y análisis debe estar orientada a la identificación de tendencias y situaciones que influyen en la potenciación del desarrollo integral de niñas y niños desde la gestación, así como en la garantía de sus derechos y en el logro de sus propósitos. </b> </p>
+                    <p class="p-box"> <b>Es necesario considerar algunos aspectos en cada uno de los componentes de calidad para la identificación de tendencias y situaciones: </b> </p>
+                    <p class="p-box"> <b>Los insumos principales para la recopilación de información surgen de: </b> </p>
                       <p class="text-green-dark"><b>1.</b> Recopilación de la información alrededor de los aspectos vistos.</p>
                       <p class="text-green-dark"><b>2.</b> Sistematización de la información recopilada.</p>
                       <p class="text-green-dark"><b>3.</b> Análisis de los resultados.</p>
                     </div>
 
-                    <div class="col-lg-8 col-md-8 col-sm-12 mb-4 mt-5">
+                    <div class="col-lg-8 col-md-8 col-sm-12 mb-4 ">
                         <div class=" col-12 ">
-                            
                             <div class="list-of-items ">
                               <div class="row item-button align-items-center">
                                   <div class="icon-holder col-3 p-3 align-items-center justify-content-center d-flex">

@@ -26,8 +26,39 @@ var slideContent =`
         </div>
         <div class="row content-row">
             <div class="container">
+                <div class="col-lg-4 col-md-4 col-sm-10">
+                    <p class="title-green">Previo al desarrollo de las fases es importante identificar:</p>
+                </div>
                 <div class="row d-flex responsive-container">
-                    <div class="col-8">
+                    <div class="col-4 mb-4 mt-5">
+                        <div class="row align-items-center justify-content-between mb-3">
+                            <div class="col-lg-12 list-of-items">
+                                <div class="row item-button align-items-center">
+                                        <img class="img-fluid" src="images/img_s2.png">
+                                    <div class="col-8 item-text">
+                                        <p>Los actores comunitarios e institucionales que participarán.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 list-of-items">
+                                <div class="row item-button align-items-center">
+                                        <img class="img-fluid" src="images/img_s2.png">
+                                    <div class="col-8 item-text">
+                                        <p>Los tiempos y mecanismos para desarrollar cada una de las fases.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 list-of-items">
+                                <div class="row item-button align-items-center">
+                                        <img class="img-fluid" src="images/img_s2.png">
+                                    <div class="col-8 item-text">
+                                        <p>Los posibles espacios de articulación y encuentro con los actores identificados.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-8 ml-3">
                         <div class="row collapse-light collapse-1 collapse-3 collapse-4">
                             <div class="col-12 col-sm-6 col-lg-6 my-5">
                                 <div>
@@ -73,36 +104,6 @@ var slideContent =`
                                 </div>
                             </div>
                         </div>
-                    </div>
-
-                    <div class="col-4 mb-4 mt-5">
-                        <div class="row align-items-center justify-content-between mb-3">
-                            <div class="col-lg-12 list-of-items">
-                                <div class="row item-button align-items-center">
-                                        <img class="img-fluid" src="images/img_s2.png">
-                                    <div class="col-8 item-text">
-                                        <p>Los actores comunitarios e institucionales que participarán.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 list-of-items">
-                                <div class="row item-button align-items-center">
-                                        <img class="img-fluid" src="images/img_s2.png">
-                                    <div class="col-8 item-text">
-                                        <p>Los tiempos y mecanismos para desarrollar cada una de las fases.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-12 list-of-items">
-                                <div class="row item-button align-items-center">
-                                        <img class="img-fluid" src="images/img_s2.png">
-                                    <div class="col-8 item-text">
-                                        <p>Los posibles espacios de articulación y encuentro con los actores identificados.</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
                 </div>
             </div>

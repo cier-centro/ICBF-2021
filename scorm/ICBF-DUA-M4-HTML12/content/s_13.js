@@ -20,6 +20,9 @@ var slideContent =`
         </div>
         <div class="row content-row">
             <div class="container">
+                <div class=" text-center">
+                    <p class="title-green mt-5 mb-5">Su implementación depende de:</p>
+                </div>
                 <div class="row d-flex responsive-container">
                     <div class="col-lg-6 col-md-6 col-sm-10 s4-container">
                       <img class="img-fluid" src="images/img_s13.png" alt="Ilustración elementos">

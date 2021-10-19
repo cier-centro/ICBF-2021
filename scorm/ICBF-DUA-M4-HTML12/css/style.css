@@ -219,6 +219,10 @@ ul li {
 .text-green-dark {
   color: #0C5924 !important;
 }
+
+.text-yellow {
+  color: #ffb10d !important;
+}
 .text-size-s3{
   font-size: 0.8em !important;
 }
