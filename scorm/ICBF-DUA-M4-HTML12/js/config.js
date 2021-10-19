@@ -1,9 +1,12 @@
 //Establece la diapositiva inicial del cargador
 var slideIndex = 1;
 //Establece en qué diapositivas se debe ocultar la barra de control principal (separar con coma)
-var hiddenControlsStates = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16];
+var hiddenControlsStates = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16];
 //Establece el texto y enlace de la primera miga de pan
-var initialBreadcrumbLink = {title: "Inicio", link: 1};
+var initialBreadcrumbLink = {
+    title: "Inicio",
+    link: 1
+};
 //Establece los enlaces del menú principal
 var mainMenuContent = `
 <a href="#" onclick="currentSlide(2) " class=" list-group-item list-group-item-action">Mapa de redes</a>

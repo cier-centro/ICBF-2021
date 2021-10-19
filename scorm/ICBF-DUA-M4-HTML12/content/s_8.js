@@ -21,6 +21,10 @@ var slideContent =`
         <div class="text-container mt-5">
             <div class="text-center">
                 <h1 class="title-green">Preguntas de reflexión</h1>
+                <div class="text-center col-12 ">
+                    <button id="btnAudio" class="btn btn-audio-play green" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
+                    <audio id="audio" src="../media/audio_s8.mp3"></audio>
+                </div>
             </div>
         </div>
         <div class="row content-row">
@@ -28,7 +32,6 @@ var slideContent =`
                 <div class="row d-flex responsive-container">
                     <div class="col-lg-6 col-md-6 col-sm-12 mb-4 mt-5">
                         <div class=" col-12 ">
-                            
                             <div class="list-of-items ">
                               <div class="row item-button align-items-center">
                                   <div class="icon-holder col-3 p-3 align-items-center justify-content-center d-flex">
@@ -70,6 +73,7 @@ var slideContent =`
 var slideActivityContent = {
 };
 
+isAudioPlayed = false;
 
 $(document).ready(function() {
 

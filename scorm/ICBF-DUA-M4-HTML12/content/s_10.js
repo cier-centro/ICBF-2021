@@ -1,5 +1,5 @@
 var slideTitle = "Diseño Universal del Aprendizaje";
-var slideContent =`
+var slideContent = `
 <div class="row info-container">
     <div class="col">
         <div class="row header-row align-items-center">
@@ -27,19 +27,26 @@ var slideContent =`
             <div class="container">
                 <div class="row d-flex responsive-container">
                     <div class="col-lg-12 col-md-12 col-sm-12 s4-container">
-                      <img class="img-fluid" src="images/img_s10.png" alt="Ilustración elementos">
+                        <img class="img-fluid" src="images/img_s10.png" alt="Ilustración elementos">
                     </div>
                 </div>
-                <div class=" list-of-items d-flex flex-row-reverse bd-highlight mt-5">
-                  <div class="row item-button align-items-center">
-                      <div class="icon-holder2 col-3 p-3 align-items-center justify-content-center d-flex">
-                          <img class="img-fluid" src="images/img_s10_2.png">
-                      </div>
-                      <div class="col-8 item-text">
-                          <p><b>Educando familias amorosas y protectoras</b></p>
-                      </div>
-                  </div>
+                <div class="d-flex flex-row-reverse bd-highlight">
+                    <div class="col-lg-6 list-of-items mt-5 ">
+                        <div class="row item-button align-items-center">
+                            <div class="icon-holder col-3 p-3 align-items-center justify-content-center d-flex">
+                                <img class="img-fluid" src="images/img_s3.png">
+                            </div>
+                            <div class="col-8 item-text">
+                                <p><b>Educando familias amorosas y protectoras</b></p>
+                            </div>
+                        </div>
+                        <div class="text-center col-12 center-audio-btn">
+                            <button id="btnAudio" class="btn btn-audio-play green" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
+                            <audio id="audio" src="../media/audio_s10.mp3"></audio>
+                        </div>
+                    </div>
                 </div>
+                
             </div>
         </div>
         <div class="row">
@@ -51,10 +58,8 @@ var slideContent =`
     </div>
 </div>
 `;
-var slideActivityContent = {
-};
+var slideActivityContent = {};
 
+isAudioPlayed = false;
 
-$(document).ready(function() {
-
-});
+$(document).ready(function () {});

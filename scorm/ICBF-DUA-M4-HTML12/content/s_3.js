@@ -23,15 +23,19 @@ var slideContent =`
             <div class="container">
 
                 <div class="col-lg-6 list-of-items">
-                    <div class="row item-button align-items-center">
-                        <div class="icon-holder col-3 p-3 align-items-center justify-content-center d-flex">
-                            <img class="img-fluid" src="images/img_s3.png">
-                        </div>
-                        <div class="col-8 item-text">
-                            <p><b>Fase 1</b></p>
-                            <p>Diagnóstico situacional participativo</p>
-                        </div>
+                  <div class="row item-button align-items-center">
+                    <div class="icon-holder col-3 p-3 align-items-center justify-content-center d-flex">
+                        <img class="img-fluid" src="images/img_s3.png">
                     </div>
+                    <div class="col-8 item-text">
+                        <p><b>Fase 1</b></p>
+                        <p>Diagnóstico situacional participativo</p>
+                    </div>
+                  </div>
+                  <div class="text-center col-12 center-audio-btn">
+                    <button id="btnAudio" class="btn btn-audio-play green" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
+                      <audio id="audio" src="../media/audio_s3.mp3"></audio>
+                  </div>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -164,6 +168,7 @@ var slideContent =`
 var slideActivityContent = {
 };
 
+isAudioPlayed = false;
 
 $(document).ready(function() {
 

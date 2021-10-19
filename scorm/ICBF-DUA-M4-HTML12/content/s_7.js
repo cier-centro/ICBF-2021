@@ -22,25 +22,29 @@ var slideContent =`
             <div class="container">
                 <div class="row d-flex align-items-center">
                     <div class="col-lg-6 mb-4">
-                      <div class="col-lg-10 col-md-10 list-of-items">
-                          <div class="row item-button align-items-center">
-                              <div class="icon-holder col-3 p-3 align-items-center justify-content-center d-flex">
-                                  <img class="img-fluid" src="images/img_s3.png">
-                              </div>
-                              <div class="col-8 item-text">
-                                  <p><b>Fase 2</b></p>
-                                  <p>Diseño del POAI</p>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-12 row align-items-center justify-content-between mt-5">
-                          <p class="p-box"> <b>Primera opción:</b> organización por componentes </p>
-                      </div>
-                      <div class="col-12 row align-items-center justify-content-between mb-3">
-                          <div class="my-3 p-container p-box">
-                            <p>Las modalidades de educación inicial, en el marco de la atención integral, están organizadas en seis componentes, que enfocan las gestiones, dinámicas y acciones hacia la garantía del derecho al desarrollo integral de la primera infancia.</p>
-                          </div>
-                      </div>
+                        <div class="col-lg-10 col-md-10 list-of-items">
+                            <div class="row item-button align-items-center">
+                                <div class="icon-holder col-3 p-3 align-items-center justify-content-center d-flex">
+                                    <img class="img-fluid" src="images/img_s3.png">
+                                </div>
+                                <div class="col-8 item-text">
+                                    <p><b>Fase 2</b></p>
+                                    <p>Diseño del POAI</p>
+                                </div>
+                            </div>
+                            <div class="text-center col-12 center-audio-btn">
+                                <button id="btnAudio" class="btn btn-audio-play green" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
+                                <audio id="audio" src="../media/audio_s7.mp3"></audio>
+                            </div>
+                        </div>
+                        <div class="col-12 row align-items-center justify-content-between mt-5">
+                            <p class="p-box"> <b>Primera opción:</b> organización por componentes </p>
+                        </div>
+                        <div class="col-12 row align-items-center justify-content-between mb-3">
+                            <div class="my-3 p-container p-box">
+                                <p>Las modalidades de educación inicial, en el marco de la atención integral, están organizadas en seis componentes, que enfocan las gestiones, dinámicas y acciones hacia la garantía del derecho al desarrollo integral de la primera infancia.</p>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-lg-6">
                         <img class="img-fluid" src="images/img_s7.png" alt="Ilustración elementos">
@@ -60,6 +64,7 @@ var slideContent =`
 var slideActivityContent = {
 };
 
+isAudioPlayed = false;
 
 $(document).ready(function() {
 

@@ -18,15 +18,14 @@ function jqcallback() {
 //#ID-audio: id del audio que se va reproducir
 //#ID-audio-btn: id del contenedor que tiene las imágenes del reproductor
 //playAndPauseAudio("#ID-audio","#ID-audio-btn")
-function playAndPauseAudio(audioId,audioContainer){
+function playAndPauseAudio(audioId, audioContainer) {
   isAudioPlayed = !isAudioPlayed;
   if (isAudioPlayed) {
-    $(audioId)[0].play();
-    $(audioContainer).find("img").attr("src","images/img_pause.png");
-  }
-  else {
-    $(audioId)[0].pause();
-    $(audioContainer).find("img").attr("src","images/img_play.png");
+    $("#" + audioId)[0].play();
+    $("#" + audioContainer).css('background-image', 'url("images/img_pause.png")');
+  } else {
+    $("#" + audioId)[0].pause();
+    $("#" + audioContainer).css('background-image', 'url("images/btn_sound.png")');
   }
 }
 //--------------------

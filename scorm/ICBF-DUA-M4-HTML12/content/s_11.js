@@ -1,5 +1,5 @@
 var slideTitle = "Diseño Universal del Aprendizaje";
-var slideContent =`
+var slideContent = `
 <div class="row info-container">
     <div class="col">
         <div class="row header-row align-items-center">
@@ -21,6 +21,10 @@ var slideContent =`
         <div class="text-container mt-5">
             <div class="text-center">
                 <h1 class="title-green">Preguntas de reflexión</h1>
+                <div class="text-center col-12 ">
+                    <button id="btnAudio" class="btn btn-audio-play green" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
+                    <audio id="audio" src="../media/audio_s11.mp3"></audio>
+                </div>
             </div>
         </div>
         <div class="row content-row">
@@ -28,10 +32,10 @@ var slideContent =`
                 <div class="row d-flex responsive-container">
                     <div class="col-lg-5 col-md-6 col-sm-10 s4-container">
                       <div class="col-12 row align-items-center justify-content-between mb-3">
-                          <div class="my-3 p-container p-box text-center">
+                        <div class="my-3 p-container p-box text-center">
                             <p class="yellow-text"><b>Consideraciones</b></p>
                             <p>Para desarrollar el proceso de atención, es necesario construir otros planes complementarios al POAI, que deben conectarse con lo identificado en el diagnóstico situacional. Algunos pueden ser:</p>
-                          </div>
+                        </div>
                       </div>
                     </div>
                     <div class="col-lg-7 col-md-6 col-sm-12 mb-4 mt-5">
@@ -100,10 +104,10 @@ var slideContent =`
     </div>
 </div>
 `;
-var slideActivityContent = {
-};
+var slideActivityContent = {};
 
+isAudioPlayed = false;
 
-$(document).ready(function() {
+$(document).ready(function () {
 
 });
