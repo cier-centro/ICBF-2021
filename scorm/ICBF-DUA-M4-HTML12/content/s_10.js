@@ -42,7 +42,7 @@ var slideContent = `
                         </div>
                         <div class="text-center col-12 center-audio-btn">
                             <button id="btnAudio" class="btn btn-audio-play green" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
-                            <audio id="audio" src="../media/audio_s10.mp3"></audio>
+                            <audio id="audio" src="./media/audio_s10.mp3"></audio>
                         </div>
                     </div>
                 </div>

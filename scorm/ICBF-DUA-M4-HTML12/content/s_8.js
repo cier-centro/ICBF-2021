@@ -1,5 +1,5 @@
 var slideTitle = "Diseño Universal del Aprendizaje";
-var slideContent =`
+var slideContent = `
 <div class="row info-container">
     <div class="col">
         <div class="row header-row align-items-center">
@@ -23,7 +23,7 @@ var slideContent =`
                 <h1 class="title-green">Preguntas de reflexión</h1>
                 <div class="text-center col-12 ">
                     <button id="btnAudio" class="btn btn-audio-play green" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
-                    <audio id="audio" src="../media/audio_s8.mp3"></audio>
+                    <audio id="audio" src="./media/audio_s8.mp3"></audio>
                 </div>
             </div>
         </div>
@@ -70,11 +70,10 @@ var slideContent =`
     </div>
 </div>
 `;
-var slideActivityContent = {
-};
+var slideActivityContent = {};
 
 isAudioPlayed = false;
 
-$(document).ready(function() {
+$(document).ready(function () {
 
 });
