@@ -14,7 +14,7 @@ var slideContent =`
                     </div>
                     <div class="col-md-7 col-sm-12 text-container">
                         <div class="text-center">
-                            <h1 class="tx-light-green">Educación Universal</h1>
+                            <h1 class="tx-light-green">Diseño Universal</h1>
                             <h1 class="tx-light-green">para el <h1 class="yellow-text">Aprendizaje - DUA</h1></h1>
                             <h4 class="white-text">Política de atención integral a la primera infancia</h4>
                         </div>
