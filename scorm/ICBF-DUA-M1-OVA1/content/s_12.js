@@ -6,7 +6,7 @@ var slideContent =`
             <div class="main-logo-header-left col-md-1 col-2"><img class="img-fluid" src="./images/logo-header.png">
             </div>
             <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5">
-                <p>Diseño Universal del Aprendizaje - DUA > Educación Inclusiva > Módulo 2</p>
+
             </div>
             <div class="col-2 col-md-3"><a href="#" onclick="currentSlide(1)" class="btn btn-link btn-home float-right"></a></div>
         </div>
@@ -22,7 +22,7 @@ var slideContent =`
         <div class="row content-row">
           <div class="container">
             <div class="row content-center">
-                <p class="p-box">Con base en los principios revisados previamente, seleccione algunos de los cuatro casos que se presentan a continuación y responda a estas preguntas de reflexión:</p>
+                <p class="p-box">Luego de revisar la lectura reflexione sobre los siguientes cuestionamientos: </p>
             </div>
             <div class="row d-flex responsive-container">
                 <div class="col-lg-6 col-md-6 col-sm-10 s4-container">

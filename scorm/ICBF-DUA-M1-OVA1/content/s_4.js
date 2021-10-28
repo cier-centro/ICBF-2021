@@ -6,7 +6,7 @@ var slideContent =`
             <div class="main-logo-header-left col-md-1 col-2"><img class="img-fluid" src="./images/logo-header.png">
             </div>
             <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5">
-                <p>Diseño Universal del Aprendizaje - DUA > Educación Inclusiva > Módulo 2</p>
+
             </div>
             <div class="col-2 col-md-3"><a href="#" onclick="currentSlide(1)" class="btn btn-link btn-home float-right"></a></div>
         </div>
@@ -33,15 +33,14 @@ var slideContent =`
                           </div>
                         </div>
                       </div>
-                      <div class="col-lg-4 list-of-items">
-                        <p class="p-box">Haga clic en el boton reproducir</p>
-                      </div>
                     </div>
-                    <div class="col-sm-12">
+                    <div class="col-sm-12 col-lg-12 col-md-12">
                       <div class="col-lg-10 offset-lg-1 my-3  mb-5 p-container p-box">
                         <p>Entendamos a través de este audio los principales elementos que propone la política para su implementación en los territorios.</p>
                       </div>
-                      
+                      <div class=" my-3  mb-5">
+                        <p class="col-lg-6 col-md-6 col-sm-10 text-center offset-lg-3 offset-md-3 offset-sm-1  p-box">Haga clic en el siguiente botón para reproducir el audio</p>
+                      </div>
                       <div class="text-center col-12 center-audio-btn">
                         <button id="btnAudio" class="btn btn-audio-play orange mt-5" onclick="playAndPauseAudio('audio', 'btnAudio')"></button>
                           <audio id="audio" src="./media/audio_s4.mp3"></audio>

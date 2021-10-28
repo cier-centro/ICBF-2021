@@ -6,7 +6,7 @@ var slideContent =`
             <div class="main-logo-header-left col-md-1 col-2"><img class="img-fluid" src="./images/logo-header.png">
             </div>
             <div class="col-9 offset-3 col-md-8 offset-md-1 pl-md-5">
-                <p>Diseño Universal del Aprendizaje - DUA > Educación Inclusiva > Módulo 2</p>
+                
             </div>
             <div class="col-2 col-md-3"><a href="#" onclick="currentSlide(1)" class="btn btn-link btn-home float-right"></a></div>
         </div>
@@ -22,7 +22,7 @@ var slideContent =`
         <div class="row content-row">
             <div class="container">
                 <div class="row content-center">
-                    <p class="p-box">Bienvenidos al módulo 1: Política de atención integral a la primera infancia. Los invitamos a navegar por los diferentes contenidos para conocer las generalidades sobre el tema.</p>
+                    <p class="p-box">Bienvenidos y bienvenidas al módulo 1: Política de atención integral a la primera infancia. Les invitamos a navegar por los diferentes contenidos para conocer las generalidades sobre el tema.</p>
                     <p class="p-box">Haga clic sobre los títulos para conocer los contenidos</p>
                 </div>
                 <div class="row d-flex align-items-center">
