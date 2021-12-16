@@ -1,0 +1,41 @@
+/*----------------------------------
+---------------Header---------------
+------------------------------------*/
+.theme-snap{
+    #mr-nav{
+        background-color: $white;
+        box-shadow: 0rem 0.5rem 0.5rem 0rem rgba($blue-site-semilight,0.3);
+        padding:0px!important;
+        .pull-right{
+            padding:1em 0;
+        }
+        #snap-home{
+            height: 82px;
+
+            @media (min-width: 768px) {
+                max-width: 100%;
+                margin: unset;
+            }
+        }
+
+        #snap-header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            // padding: 2% 4% 2% 4%;
+            
+
+            @media (min-width: 992px) {
+                padding:0px;
+            }
+
+            @media (min-width: 1800px) {
+                padding:0px;
+            }
+
+            
+        }
+    }
+}
+
+
